@@ -9,9 +9,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
     }
     fun onClickEvent(view: View){
         val intent = Intent(this@MainActivity, AddEvent::class.java)
+
         startActivity(intent)
     }
     fun onClickNewEquip(view: View){

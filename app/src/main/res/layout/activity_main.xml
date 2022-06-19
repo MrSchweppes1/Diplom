@@ -96,9 +96,9 @@
             android:layout_weight="1"
             android:background="#956cff"
             android:clickable="true"
-            android:contentDescription="@string/previous"
             android:onClick="onClickChecklist"
-            app:srcCompat="@drawable/checklist_active" />
+            app:srcCompat="@drawable/checklist_active"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageView
             android:id="@+id/AddStudent"
@@ -107,9 +107,9 @@
             android:layout_weight="1"
             android:background="#956cff"
             android:clickable="true"
-            android:contentDescription="@string/previous"
             android:onClick="onClickStudent"
-            app:srcCompat="@drawable/student2" />
+            app:srcCompat="@drawable/student2"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

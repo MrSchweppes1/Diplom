@@ -27,7 +27,18 @@
         android:onClick="onClickBack"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow" />
+        app:srcCompat="@drawable/arrow"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvWorkshops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/arrowBack"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
         android:layout_width="385dp"
@@ -152,7 +163,8 @@
             android:background="#956cff"
             android:clickable="true"
             android:onClick="onClickChecklist"
-            app:srcCompat="@drawable/checklist_active" />
+            app:srcCompat="@drawable/checklist_active"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageView
             android:id="@+id/AddStudent"
@@ -162,7 +174,8 @@
             android:background="#956cff"
             android:clickable="true"
             android:onClick="onClickStudent"
-            app:srcCompat="@drawable/student2" />
+            app:srcCompat="@drawable/student2"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
